@@ -13,4 +13,4 @@ def coinflip():
 
 @app.get('/random')
 def randomNumber():
-    return {"result":randint(1,200)}
+    return {"result":randint(1,100)}
